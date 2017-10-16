@@ -1,0 +1,111 @@
+swagger: '2.0'
+info:
+  title: lzt-function-20171015212405878.azurewebsites.net
+  version: 1.0.0
+host: lzt-function-20171015212405878.azurewebsites.net
+basePath: /
+schemes:
+  - https
+  - http
+paths:
+  /api/hello:
+    get:
+      operationId: /api/hello/get
+      produces: []
+      consumes: []
+      parameters: []
+      description: >-
+        Replace with Operation Object
+        #http://swagger.io/specification/#operationObject
+      responses:
+        '200':
+          description: Success operation
+      security:
+        - apikeyQuery: []
+    post:
+      operationId: /api/hello/post
+      produces:
+        - application/json
+      consumes:
+        - application/json
+      parameters: []
+      description: >-
+        Replace with Operation Object
+        #http://swagger.io/specification/#operationObject
+      responses:
+        '200':
+          description: Success operation
+      security:
+        - apikeyQuery: []
+    delete:
+      operationId: /api/hello/delete
+      produces: []
+      consumes: []
+      parameters: []
+      description: >-
+        Replace with Operation Object
+        #http://swagger.io/specification/#operationObject
+      responses:
+        '200':
+          description: Success operation
+      security:
+        - apikeyQuery: []
+    head:
+      operationId: /api/hello/head
+      produces: []
+      consumes: []
+      parameters: []
+      description: >-
+        Replace with Operation Object
+        #http://swagger.io/specification/#operationObject
+      responses:
+        '200':
+          description: Success operation
+      security:
+        - apikeyQuery: []
+    patch:
+      operationId: /api/hello/patch
+      produces: []
+      consumes: []
+      parameters: []
+      description: >-
+        Replace with Operation Object
+        #http://swagger.io/specification/#operationObject
+      responses:
+        '200':
+          description: Success operation
+      security:
+        - apikeyQuery: []
+    put:
+      operationId: /api/hello/put
+      produces: []
+      consumes: []
+      parameters: []
+      description: >-
+        Replace with Operation Object
+        #http://swagger.io/specification/#operationObject
+      responses:
+        '200':
+          description: Success operation
+      security:
+        - apikeyQuery: []
+    options:
+      operationId: /api/hello/options
+      produces: []
+      consumes: []
+      parameters: []
+      description: >-
+        Replace with Operation Object
+        #http://swagger.io/specification/#operationObject
+      responses:
+        '200':
+          description: Success operation
+      security:
+        - apikeyQuery: []
+definitions: {}
+securityDefinitions:
+  apikeyQuery:
+    type: apiKey
+    name: code
+    in: query
+
